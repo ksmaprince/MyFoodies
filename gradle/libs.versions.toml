@@ -12,8 +12,10 @@ retrofit = "2.11.0"
 converterGson = "2.11.0"
 loggingInterceptor = "5.0.0-alpha.14"
 ksp = "1.9.10-1.0.13"
-hiltAndroid = "2.51"
+hiltAndroid = "2.51.1"
 coilCompose = "2.6.0"
+navigationCompose = "2.8.0-beta05"
+hiltNavigationCompose = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -36,6 +38,8 @@ logging-interceptor = { group = "com.squareup.okhttp3", name = "logging-intercep
 hilt-android-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hiltAndroid" }
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hiltAndroid" }
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coilCompose" }
+androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
+androidx-hilt-navigation-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
